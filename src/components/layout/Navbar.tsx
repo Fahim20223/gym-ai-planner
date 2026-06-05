@@ -15,7 +15,7 @@ export default function Navbar() {
           {user ? (
             <>
               {" "}
-              <Link to={"/auth/sign-in"}>
+              <Link to={"/profile"}>
                 <Button variant="ghost" size="sm">
                   My Plane
                 </Button>
